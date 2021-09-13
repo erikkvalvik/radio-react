@@ -61,6 +61,15 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+        name: "Jazz Cabbage",
+        artist: "Ian Ewing, Strehlow",
+        cover: "https://chillhop.com/wp-content/uploads/2020/06/49f6e32ca521fbad46a1b281e3893cf6254bf11d-1024x1024.jpg",
+        id: uuidv4(),
+        active: false,
+        audio: "https://mp3.chillhop.com/serve.php/?mp3=9363",
+        color: ["#B34745","#FDF0DD"],
+    }
     //ADD MORE HERE
   ];
 }
