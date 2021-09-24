@@ -19,6 +19,8 @@
   cursor: pointer;
   img {
     width: 30%;
+    border: 5px solid rgba(142, 176, 187, 0.459);
+    border-radius: 35%;
   }
   &:hover {
     background: rgb(157, 196, 209);
