@@ -38,6 +38,8 @@ function App() {
       ></Nav>
       <Song currentSong={currentSong}/>
       <Player 
+      setCurrentSong={setCurrentSong}
+      songs={songs}
       timeUpdateHandler={timeUpdateHandler}
       setSongInfo={setSongInfo}
       songInfo={songInfo}
