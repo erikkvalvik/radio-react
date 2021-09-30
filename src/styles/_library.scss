@@ -64,3 +64,8 @@
 .selected {
   box-shadow: 4px 4px 10px rgb(143, 143, 143);
 }
+
+.active-library {
+  transform: translateX(0%);
+  opacity: 1;
+}
